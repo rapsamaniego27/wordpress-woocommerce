@@ -16,4 +16,10 @@ function cf_setup(){
 }
 add_action('wp_enqueue_scripts', 'cf_setup');
 
+//Add menus
+add_theme_support('menus');
 
+//Register menus
+register_nav_menus([
+  'top-menu' => 'Top Menu'
+]);
