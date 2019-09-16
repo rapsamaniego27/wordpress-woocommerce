@@ -9762,3 +9762,13 @@ header {
 .main-container {
   padding: 2rem 0;
 }
+
+.content {
+  height: 1000px;
+}
+
+footer {
+  height: 300px;
+  background: #f0f0f0;
+  width: 100%;
+}
