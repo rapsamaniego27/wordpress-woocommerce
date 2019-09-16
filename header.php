@@ -10,3 +10,8 @@
 </head>
 <body <?php body_class('test'); ?>>
   
+<header>
+  <div class="test">
+    asdf
+  </div>
+</header>
