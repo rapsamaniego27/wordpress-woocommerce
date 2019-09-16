@@ -10,8 +10,9 @@
 </head>
 <body <?php body_class('test'); ?>>
   
-<header>
-  <div class="container d-flex align-items-center justify-content-between">
+<header> 
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-between">
     <img src="<?php bloginfo('template_directory');?>/images/logo.png" class="image-fluid logo">
     
 
@@ -21,5 +22,6 @@
         'menu_class' => 'top-menu'
       ]);
     ?>
+    </div>
   </div>
 </header>

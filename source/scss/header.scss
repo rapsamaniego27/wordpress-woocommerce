@@ -31,3 +31,13 @@ header{
   }
 
 }
+
+#hero{
+  height:400px;
+  width:100%;
+  background: url('../../images/hero.jpg') #f0f0f0;
+
+  h1{
+    color:$light;
+  }
+}
