@@ -1,16 +1,16 @@
+<?php 
+/*
+Template Name: Shop Page
+*/
+?>
+
 <?php get_header(); ?>
 
 <div class="main-container container">
   <div class="row">
-    <div class="col lg-3">
-      <div class="sticky-top cust-sidebar"><?php get_sidebar(); ?></div>
-    </div>
 
-    <div class="col lg-9">
+    <div class="col lg-12">
       
-      <a href="<?php the_permalink(); ?>">
-        <img src="<?php the_post_thumbnail_url('post_image') ?>" alt="" class="img-fluid mb-5"> 
-      </a>
 
       <h1><?php the_title(); ?></h1>
 

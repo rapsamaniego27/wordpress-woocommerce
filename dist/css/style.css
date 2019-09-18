@@ -9802,6 +9802,10 @@ header {
   border-radius: 0.5rem;
 }
 
+.pagination a {
+  color: red;
+}
+
 footer {
   height: 300px;
   background: #f0f0f0;
