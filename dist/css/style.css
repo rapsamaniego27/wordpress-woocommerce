@@ -9751,12 +9751,23 @@ header {
 }
 
 #hero {
-  height: 400px;
+  height: 300px;
   width: 100%;
   background: url("../../images/hero.jpg") #f0f0f0;
+  background-size: cover;
 }
 #hero h1 {
   color: #f8f9fa;
+}
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #hero {
+    height: 550px;
+  }
 }
 
 .main-container {
@@ -9764,7 +9775,24 @@ header {
 }
 
 .content {
-  height: 1000px;
+  padding: 3rem 0;
+}
+
+.widget {
+  list-style-type: none;
+  padding: 1.5rem;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+.widget ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cust-sidebar {
+  top: 50px;
 }
 
 footer {

@@ -18,8 +18,23 @@ add_action('wp_enqueue_scripts', 'cf_setup');
 
 //Add menus
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
 
 //Register menus
 register_nav_menus([
   'top-menu' => 'Top Menu'
+]);
+
+
+// Add image sizes
+add_image_size('post_image', 1100, 550, false);
+
+//Add a widget
+register_sidebar([
+  'name' => 'Page Sidebar',
+  'id' => 'page-sidebar',
+  'class' => '',
+  'before_title' => '<h4>',
+  'after_title' => '</h4>'
+
 ]);
