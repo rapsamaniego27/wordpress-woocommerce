@@ -9795,6 +9795,13 @@ header {
   top: 50px;
 }
 
+.blog-post {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+
 footer {
   height: 300px;
   background: #f0f0f0;
