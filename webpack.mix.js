@@ -15,7 +15,7 @@ mix.options({
     processCssUrls: false
 })
 
-.js('source/js/app.js', 'dist/js/app.js')
-    .sass('source/scss/style.scss', 'dist/css/style.css');
+.js('source/js/app.js', 'app.js')
+    .sass('source/scss/style.scss', 'style.css');
  
     
