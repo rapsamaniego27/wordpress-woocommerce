@@ -16,7 +16,6 @@ mix.options({
 })
 
 .js('source/js/app.js', 'app.js')
-    .sass('source/scss/style.scss', 'style.css')
-    .sass('source/scss/framework.scss', 'bootstrap.css');
+    .sass('source/scss/style.scss', 'style.css');
  
     

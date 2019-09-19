@@ -4,7 +4,6 @@ function cf_setup(){
 
   wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
   wp_enqueue_style('style', get_template_directory_uri() . '/style.css', array(), false, 'all');
-  wp_enqueue_style('bootstrap', get_template_directory_uri() . '/bootstrap.css', array(), false, 'all');
   
 
   wp_deregister_script('jquery');

@@ -3,6 +3,8 @@ Theme Name: My First Woo Commerce Site
 Author: Ralph Samaniego
 */
 
+@import 'node_modules/bootstrap/scss/bootstrap';
+
 header{
   background:$light;
   padding: 1rem 0;
