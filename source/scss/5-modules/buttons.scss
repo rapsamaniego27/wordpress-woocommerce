@@ -1,0 +1,22 @@
+
+@import '../2-base/mixins';
+@import '../2-base/placeholders';
+@import '../2-base/variables';
+
+
+.btn-success{
+  @include btn-background($success);
+}
+
+.btn-danger{
+  @include btn-background($danger);
+}
+
+.btn-info{
+  @include btn-background($info);
+}
+
+.btn-warning{
+  @include btn-background($warning);
+}
+

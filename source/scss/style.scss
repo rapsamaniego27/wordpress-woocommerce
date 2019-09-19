@@ -1,9 +1,14 @@
-@import 'colors';
 
-@import 'header';
+@import '1-vendor/themename';
+@import '1-vendor/bootstrap';
+@import '1-vendor/variables';
+@import '1-vendor/reset';
 
-@import 'content';
 
-@import 'footer';
+@import '4-layout/header';
+@import '4-layout/custom';
+@import '4-layout/footer';
+@import '4-layout/nav';
+@import '4-layout/content';
+@import '4-layout/woocommerce';
 
-@import 'woocommerce'
