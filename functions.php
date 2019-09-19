@@ -6,12 +6,10 @@ function cf_setup(){
   wp_enqueue_style('style', get_template_directory_uri() . '/style.css', array(), false, 'all');
   
 
-  wp_deregister_script('jquery');
+  // wp_deregister_script('jquery');
 
   wp_enqueue_script('script', get_template_directory_uri() . '/app.js', 'jquery', 1, true);
   wp_enqueue_script('fontawesome','https://kit.fontawesome.com/e33b567028.js');
-  
- 
 
 }
 add_action('wp_enqueue_scripts', 'cf_setup');

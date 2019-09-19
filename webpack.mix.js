@@ -13,9 +13,6 @@ const mix = require('laravel-mix');
 
 mix.options({
     processCssUrls: false
-})
-
-.js('source/js/app.js', 'app.js')
-    .sass('source/scss/style.scss', 'style.css');
+}).sass('source/scss/style.scss', 'style.css');
  
-    
+mix.combine(['source/js/*'], 'app.js');
