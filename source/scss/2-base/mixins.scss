@@ -1,7 +1,4 @@
 
-@import 'placeholders';
-@import 'variables';
-
 @mixin btn-background($background){
   @extend %btn;
   background-color:$background;
